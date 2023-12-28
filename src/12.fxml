@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Circle fx:id="circle2" fill="WHITE" layoutX="214.0" layoutY="254.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle3" fill="WHITE" layoutX="457.0" layoutY="254.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle1" fill="WHITE" layoutX="328.0" layoutY="197.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle8" fill="WHITE" layoutX="100.0" layoutY="381.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle9" fill="WHITE" layoutX="176.0" layoutY="381.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle4" fill="WHITE" layoutX="138.0" layoutY="325.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle10" fill="WHITE" layoutX="233.0" layoutY="381.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle11" fill="WHITE" layoutX="297.0" layoutY="381.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle5" fill="WHITE" layoutX="271.0" layoutY="325.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle12" fill="WHITE" layoutX="343.0" layoutY="381.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle13" fill="WHITE" layoutX="419.0" layoutY="381.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle6" fill="WHITE" layoutX="381.0" layoutY="325.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle14" fill="WHITE" layoutX="495.0" layoutY="381.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle15" fill="WHITE" layoutX="571.0" layoutY="381.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle7" fill="WHITE" layoutX="533.0" layoutY="325.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+      <AnchorPane prefHeight="83.0" prefWidth="645.0" style="-fx-background-color: #2e3348;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Text fill="WHITE" layoutX="226.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введіть елементи дерева" textAlignment="CENTER" wrappingWidth="215.73663330078125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <TextField fx:id="textField" layoutX="11.0" layoutY="42.0" prefHeight="26.0" prefWidth="621.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="button" layoutX="255.0" layoutY="110.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="145.0" style="-fx-background-color: #f39c63;" text="Оновити" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Line endX="54.0" endY="16.400009155273438" layoutX="255.0" layoutY="189.0" startX="-22.0" startY="56.40000915527344" />
+      <Line endX="100.0" layoutX="100.0" layoutY="265.0" startX="48.5999755859375" startY="47.5999755859375" />
+      <Line endX="148.20001220703125" endY="61.5999755859375" layoutX="110.0" layoutY="275.0" startX="131.4000244140625" startY="87.0" />
+      <Line endX="59.4000244140625" endY="87.0" layoutX="110.0" layoutY="275.0" startX="40.20001220703125" startY="62.39996337890625" />
+      <Line endX="44.4000244140625" endY="132.39996337890625" layoutX="81.0" layoutY="205.0" startX="28.092918395996094" startY="157.0" />
+      <Line endX="187.0" endY="87.0" layoutX="110.0" layoutY="275.0" startX="171.4000244140625" startY="61.5999755859375" />
+      <Line endX="148.20001220703125" endY="31.0" layoutX="110.0" layoutY="275.0" startX="117.0" startY="-8.800018310546875" />
+      <Line endX="335.4000244140625" endY="-8.800018310546875" layoutX="110.0" layoutY="275.0" startX="283.4000244140625" startY="38.39996337890625" />
+      <Line endX="413.0" endY="31.0" layoutX="110.0" layoutY="275.0" startX="366.0" startY="-11.20001220703125" />
+      <Line endX="337.0" endY="-33.59999084472656" layoutX="110.0" layoutY="275.0" startX="237.0" startY="-71.19999694824219" />
+      <Line endX="300.20001220703125" endY="87.0" layoutX="110.0" layoutY="275.0" startX="281.0" startY="61.5999755859375" />
+      <Line endX="244.20001220703125" endY="94.39996337890625" layoutX="110.0" layoutY="275.0" startX="261.79998779296875" startY="69.0" />
+      <Line endX="453.0" endY="87.0" layoutX="110.0" layoutY="275.0" startX="434.5999755859375" startY="61.5999755859375" />
+      <Line endX="393.79998779296875" endY="87.0" layoutX="110.0" layoutY="275.0" startX="413.0" startY="62.39996337890625" />
+      <Text fx:id="text1" fill="WHITE" layoutX="316.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text2" fill="WHITE" layoutX="202.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text3" fill="WHITE" layoutX="445.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text4" fill="WHITE" layoutX="126.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text5" fill="WHITE" layoutX="259.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text6" fill="WHITE" layoutX="369.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text7" fill="WHITE" layoutX="521.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text8" fill="WHITE" layoutX="88.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text9" fill="WHITE" layoutX="164.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text10" fill="WHITE" layoutX="221.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text11" fill="WHITE" layoutX="285.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text12" fill="WHITE" layoutX="329.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text13" fill="WHITE" layoutX="407.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text14" fill="WHITE" layoutX="483.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+      <Text fx:id="text15" fill="WHITE" layoutX="559.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font></Text>
+   </children>
+</AnchorPane>
